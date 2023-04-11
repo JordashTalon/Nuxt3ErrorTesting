@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.5.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "dev": "nuxt dev --port=3002",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.16",
+    "@pinia/nuxt": "^0.4.5",
+    "@vvo/tzdb": "^6.73.0",
+    "alasql": "^2.0.7",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "luxon": "^3.0.4",
+    "nuxt": "^3.3.1",
+    "pg": "^8.8.0",
+    "postmark": "^3.0.14",
+    "sass": "^1.55.0",
+    "sql-bricks-postgres": "^0.6.0",
+    "vite-plugin-pug": "^0.3.1",
+    "vue-select": "^4.0.0-beta.5"
+  }
+}
